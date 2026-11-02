@@ -1,0 +1,51 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node.js dependencies
+node_modules/
+
+# Frontend build output
+dist/
+build/
+coverage/
+
+# Uploaded resumes and private data
+data/uploads/*
+**/data/uploads/*
+data/vector_store/
+**/data/vector_store/
+
+# Streamlit
+.streamlit/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Uploaded resumes and personal data
+backend-layer/data/resumeuploads/
+**/resumeuploads/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Node dependencies
+node_modules/
